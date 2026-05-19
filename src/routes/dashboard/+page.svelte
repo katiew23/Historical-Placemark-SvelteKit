@@ -147,5 +147,3 @@
   
 </section>
 
-//dashboard receives data.collections from dashboar server, puts them in currentCollections store, displays each one using collection card and uses add collection to add a new collection
-//posts to named server actions add collections, delete collection and update collection to manage collections, reloads the page after each action to show the updated list of collections

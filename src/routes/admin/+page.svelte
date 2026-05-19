@@ -353,7 +353,7 @@ href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     class="button is-fullwidth is-link"
     onclick={() => showUsers = !showUsers}
     >
-    Toggle Users
+    View Users
   </button>
   
   {#if showUsers}
@@ -377,7 +377,7 @@ href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   class="button is-fullwidth is-info"
   onclick={() => showCollections = !showCollections}
   >
-  Toggle Collections
+  View Collections
 </button>
 
 {#if showCollections}
@@ -401,7 +401,7 @@ href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   class="button is-fullwidth is-warning"
   onclick={() => showPlacemarks = !showPlacemarks}
   >
-  Toggle Placemarks
+  View Placemarks
 </button>
 
 {#if showPlacemarks}
